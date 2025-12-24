@@ -1,7 +1,7 @@
 # Stochastic-RNN-Core: Layered Autoregressive LSTM
 
 ### Abstract
-This repository implements a vertically-stacked, autoregressive Long Short-Term Memory (LSTM) network from first principles. By manually engineering the gate manifolds—Input, Forget, and Output—this architecture provides a transparent lens into the mitigation of gradient decay in deep temporal graphs. The system is optimized for character-level language modeling via high-entropy stochastic inference.
+This repository implements a vertically-stacked, autoregressive Long Short-Term Memory (LSTM) network from first principles. By manually engineering the gate manifolds, Input, Forget, and Output , this architecture provides a transparent lens into the mitigation of gradient decay in deep temporal graphs. The system is optimized for character-level language modeling via high-entropy stochastic inference.
 
 ---
 
@@ -34,15 +34,15 @@ The codebase follows a modular Separation of Concerns (SoC) paradigm:
 
 ## 3. Implementation & Execution
 ### Prerequisites
-* **Linux Environment** (Ubuntu 22.04 LTS recommended)
-* **NVIDIA Driver 535+** (LTS branch)
+* **Linux Environment**
+* **GPU** 
 * **PyTorch 2.1+** with CUDA support
 
 ### Installation
 ```bash
 # Clone the manifold
-git clone [https://github.com/your-username/Stochastic-RNN-Core.git](https://github.com/your-username/Stochastic-RNN-Core.git)
-cd Stochastic-RNN-Core
+git clone (https://github.com/leburik12/Auto_Regressive_Deep_LSTM.git)
+cd Auto_Regressive_Deep_LSTM
 
 # Initialize environment
 python3 -m venv venv
